@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+    max-width: 100%;
+    display:block;
+    margin:auto;
+    height:auto;
+    background:black;
+    font-family: sans-serif;
+}
+.navbar{
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background: black;
+}
+.link-group{
+    list-style: none;
+    display:flex;
+
+}
+.link a{
+    color:white;
+    opacity:0.5;
+    text-decoration:none;
+    /*text-transform: capitalize;*/
+    padding:10px 30px;
+    margin:0 20px;
+    line-height:80px;
+    transition:.5s;
+    font-size:20px;
+}
+.link a:hover, .link.active a{
+    opacity:1;
+
+}
+.v1
+{
+    border-left:7px solid white;
+    top:70px;
+    height:670px;
+    position:absolute;
+    left:49.6%;
+}
+.dot
+{
+    height:30px;
+    width:30px;
+    background-color: black;
+    border:4px solid white; 
+    border-radius: 50%;
+    display:inline-block;
+    position:absolute;
+    top:110px;
+    left:49%;
+
+}
+.dot1
+{
+    height:30px;
+    width:30px;
+    background-color: black;
+    border:4px solid white; 
+    border-radius: 50%;
+    display:inline-block;
+    position:absolute;
+    top:330px;
+    left:49%;
+
+}
+.dot2
+{
+    height:30px;
+    width:30px;
+    background-color: black;
+    border:4px solid white; 
+    border-radius: 50%;
+    display:inline-block;
+    position:absolute;
+    top:530px;
+    left:49%;
+
+}
+@keyframes edu1 {
+    from{
+        left:0%;
+        
+    }
+   to{
+         left:20%;
+   }
+    
+}
+
+    
+
+.time-left
+{
+    width:350px;
+    height:180px;
+    background-color:white;
+    position:absolute;
+    margin-top:150px;
+    margin-right:300px;
+    left:20%;
+    animation-name: edu1;
+    animation-duration: 1s;
+    
+}
+.content{
+    font-size:20px;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    right:9px;
+    position:absolute;
+}
+@keyframes edu2
+{
+    from{
+       left:100%;
+        
+    }
+    to{
+        left:55%;
+    }
+
+}
+.time-right
+{
+    width:350px;
+    height:180px;
+    background-color:white;
+    position:absolute;
+    margin-top:350px;
+    
+    margin-right:300px;
+    left:55%;
+    animation-name: edu2;
+    animation-duration: 1s;
+} 
+.time-left1
+{
+    width:350px;
+    height:183px;
+    background-color:white;
+    position:absolute;
+    margin-top:550px;
+    margin-right:300px;
+    left:20%;
+    animation-name: edu1;
+    animation-duration: 1s;
+
+    
+}
+.content1{
+    font-size:20px;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    right:-3px;
+    position:relative;
+}
+
+
+    
+    
